@@ -1,4 +1,4 @@
-import logo from "/assets/logo.svg?raw"
+import logo from "/assets/mik.svg?raw"
 import ThemeToggle from "./ThemeToggle"
 import { RootStore, loadSession } from "~/store"
 import { Show, createMemo } from "solid-js"
@@ -60,27 +60,27 @@ export default function Header() {
             fallback={
               <>
                 <span class="text-transparent font-extrabold bg-clip-text bg-gradient-to-r dark:from-yellow-300 from-yellow-600 dark:to-red-700 to-red-700 mr-1">
-                  ChatGPT
+                  MIK
                 </span>
                 <span class="ml-1 font-extrabold text-slate-7 dark:text-slate">
-                  Vercel
+                  GPT
                 </span>
                 <a
                   class="ml-2 <sm:hidden"
-                  href="https://github.com/ourongxing/chatgpt-vercel"
+                  href="https://www.michaels.com/"
                 >
                   <img
                     alt="GitHub forks badge"
-                    src="https://img.shields.io/github/stars/ourongxing/chatgpt-vercel?logo=github"
+                    src="https://img.shields.io/github/stars/yupoet/mikgpt?logo=github"
                   />
                 </a>
                 <a
                   class="ml-2"
-                  href="https://github.com/ourongxing/chatgpt-vercel/fork"
+                  href="https://github.com/yupoet/mikgpt/fork"
                 >
                   <img
                     alt="GitHub forks badge"
-                    src="https://img.shields.io/github/forks/ourongxing/chatgpt-vercel?logo=github"
+                    src="https://img.shields.io/github/forks/yupoet/mikgpt?logo=github"
                   />
                 </a>
               </>
