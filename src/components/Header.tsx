@@ -60,29 +60,17 @@ export default function Header() {
             fallback={
               <>
                 <span class="text-transparent font-extrabold bg-clip-text bg-gradient-to-r dark:from-yellow-300 from-yellow-600 dark:to-red-700 to-red-700 mr-1">
-                  MIK
-                </span>
-                <span class="ml-1 font-extrabold text-slate-7 dark:text-slate">
-                  GPT
-                </span>
                 <a
                   class="ml-2 <sm:hidden"
                   href="https://www.michaels.com/"
                 >
-                  <img
-                    alt="GitHub forks badge"
-                    src="https://img.shields.io/github/stars/yupoet/mikgpt?logo=github"
-                  />
-                </a>
-                <a
-                  class="ml-2"
-                  href="https://github.com/yupoet/mikgpt/fork"
-                >
-                  <img
-                    alt="GitHub forks badge"
-                    src="https://img.shields.io/github/forks/yupoet/mikgpt?logo=github"
-                  />
-                </a>
+                  MIK
+                  </a>
+                </span>
+                <span class="ml-1 font-extrabold text-slate-7 dark:text-slate">
+                  GPT
+                </span>
+               
               </>
             }
           >
